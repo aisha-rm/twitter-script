@@ -7,7 +7,7 @@ import win32com.client  # to establish shell
 #Creating a connection to Windows shell.
 shell = win32com.client.Dispatch("WScript.Shell")
 
-tweet = """First attempt at automated tweet using Python #Coding #Python """
+tweet = """First attempt at automated tweet using Python. Cool Stuff. #Coding #Python """
 
 #launch twitter and allow some delay
 webbrowser.open("https://twitter.com")
